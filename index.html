@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASIF'S BANK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+    <div class="login-form">
+        <h1 class="text-center">Welcome to ASIF'S BANK</h1>
+<div class="submit-area">
+    <h4>Login</h4>
+    <input type="text" class="form-control" placeholder="E-mail"><br>
+    <input type="password" name="" class="form-control" placeholder="Password"><br>
+    <button class="btn btn-success" id="login">Enter</button>
+</div>
+    </div>
+    <div class="trans-area">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="dep status">
+                <h5>Deposit</h5>
+                <h2>$<span id="currDeposit">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="with status">
+                <h5>Withdraw</h5>
+                <h2>$ <span id="currwith">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="bal status">
+                <h5>Balance</h5>
+                <h2>$ <span id="currBalance">1200</span></h2>
+                </div>
+            </div>
+        </div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="submit-area">
+            <h4>Deposit</h4>
+        <input id="depositAmount" type="text" class="form-control" placeholder="$amount you want to deposit"><br>
+        <button class="btn btn btn-success" id="depositadd">Deposit</button></div>
+        </div>
+<div class="col-md-6">
+        <div class="submit-area">
+            <h4>Withdraw</h4>
+            <input id="withdrawamount" type="text" class="form-control" placeholder="$amount you want to withdraw"><br>
+            <button class="btn btn btn-success" id="addwithdraw">Withdraw</button></div>
+            </div>
+        </div>
+     
+           
+</div>
+    </div>
+    <script src="./bank.js"></script>
+</body>
+</html>
